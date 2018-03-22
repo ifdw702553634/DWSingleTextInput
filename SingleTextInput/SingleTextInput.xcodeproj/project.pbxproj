@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3335A3F2063923F0042DBBA /* DWPlateKeyBoardShare.m in Sources */ = {isa = PBXBuildFile; fileRef = C3335A3E2063923F0042DBBA /* DWPlateKeyBoardShare.m */; };
+		C35664772063403B00B4B0AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C35664762063403B00B4B0AB /* AppDelegate.m */; };
+		C356647A2063403B00B4B0AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35664792063403B00B4B0AB /* ViewController.m */; };
+		C356647F2063403B00B4B0AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C356647E2063403B00B4B0AB /* Assets.xcassets */; };
+		C35664852063403B00B4B0AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C35664842063403B00B4B0AB /* main.m */; };
+		C356648F2063403B00B4B0AB /* SingleTextInputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C356648E2063403B00B4B0AB /* SingleTextInputTests.m */; };
+		C356649A2063403C00B4B0AB /* SingleTextInputUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C35664992063403C00B4B0AB /* SingleTextInputUITests.m */; };
+		C35664AA206340F800B4B0AB /* DWSingleTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = C35664A9206340F800B4B0AB /* DWSingleTextInput.m */; };
+		C35664AD20634ECD00B4B0AB /* DWPlateKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = C35664AC20634ECD00B4B0AB /* DWPlateKeyBoardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C356648B2063403B00B4B0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C356646A2063403B00B4B0AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35664712063403B00B4B0AB;
+			remoteInfo = SingleTextInput;
+		};
+		C35664962063403B00B4B0AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C356646A2063403B00B4B0AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35664712063403B00B4B0AB;
+			remoteInfo = SingleTextInput;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3335A3D2063923F0042DBBA /* DWPlateKeyBoardShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPlateKeyBoardShare.h; sourceTree = "<group>"; };
+		C3335A3E2063923F0042DBBA /* DWPlateKeyBoardShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPlateKeyBoardShare.m; sourceTree = "<group>"; };
+		C35664722063403B00B4B0AB /* SingleTextInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleTextInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35664752063403B00B4B0AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C35664762063403B00B4B0AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C35664782063403B00B4B0AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C35664792063403B00B4B0AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C356647E2063403B00B4B0AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C35664832063403B00B4B0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35664842063403B00B4B0AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C356648A2063403B00B4B0AB /* SingleTextInputTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleTextInputTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C356648E2063403B00B4B0AB /* SingleTextInputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleTextInputTests.m; sourceTree = "<group>"; };
+		C35664902063403B00B4B0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35664952063403B00B4B0AB /* SingleTextInputUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleTextInputUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35664992063403C00B4B0AB /* SingleTextInputUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleTextInputUITests.m; sourceTree = "<group>"; };
+		C356649B2063403C00B4B0AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35664A8206340F800B4B0AB /* DWSingleTextInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWSingleTextInput.h; sourceTree = "<group>"; };
+		C35664A9206340F800B4B0AB /* DWSingleTextInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWSingleTextInput.m; sourceTree = "<group>"; };
+		C35664AB20634ECD00B4B0AB /* DWPlateKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPlateKeyBoardView.h; sourceTree = "<group>"; };
+		C35664AC20634ECD00B4B0AB /* DWPlateKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPlateKeyBoardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C356646F2063403B00B4B0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35664872063403B00B4B0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35664922063403B00B4B0AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C35664692063403B00B4B0AB = {
+			isa = PBXGroup;
+			children = (
+				C35664742063403B00B4B0AB /* SingleTextInput */,
+				C356648D2063403B00B4B0AB /* SingleTextInputTests */,
+				C35664982063403B00B4B0AB /* SingleTextInputUITests */,
+				C35664732063403B00B4B0AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C35664732063403B00B4B0AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35664722063403B00B4B0AB /* SingleTextInput.app */,
+				C356648A2063403B00B4B0AB /* SingleTextInputTests.xctest */,
+				C35664952063403B00B4B0AB /* SingleTextInputUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35664742063403B00B4B0AB /* SingleTextInput */ = {
+			isa = PBXGroup;
+			children = (
+				C35664A7206340CF00B4B0AB /* DWSingleTextInput */,
+				C35664752063403B00B4B0AB /* AppDelegate.h */,
+				C35664762063403B00B4B0AB /* AppDelegate.m */,
+				C35664782063403B00B4B0AB /* ViewController.h */,
+				C35664792063403B00B4B0AB /* ViewController.m */,
+				C356647E2063403B00B4B0AB /* Assets.xcassets */,
+				C35664832063403B00B4B0AB /* Info.plist */,
+				C35664842063403B00B4B0AB /* main.m */,
+			);
+			path = SingleTextInput;
+			sourceTree = "<group>";
+		};
+		C356648D2063403B00B4B0AB /* SingleTextInputTests */ = {
+			isa = PBXGroup;
+			children = (
+				C356648E2063403B00B4B0AB /* SingleTextInputTests.m */,
+				C35664902063403B00B4B0AB /* Info.plist */,
+			);
+			path = SingleTextInputTests;
+			sourceTree = "<group>";
+		};
+		C35664982063403B00B4B0AB /* SingleTextInputUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C35664992063403C00B4B0AB /* SingleTextInputUITests.m */,
+				C356649B2063403C00B4B0AB /* Info.plist */,
+			);
+			path = SingleTextInputUITests;
+			sourceTree = "<group>";
+		};
+		C35664A7206340CF00B4B0AB /* DWSingleTextInput */ = {
+			isa = PBXGroup;
+			children = (
+				C35664A8206340F800B4B0AB /* DWSingleTextInput.h */,
+				C35664A9206340F800B4B0AB /* DWSingleTextInput.m */,
+				C35664AB20634ECD00B4B0AB /* DWPlateKeyBoardView.h */,
+				C35664AC20634ECD00B4B0AB /* DWPlateKeyBoardView.m */,
+				C3335A3D2063923F0042DBBA /* DWPlateKeyBoardShare.h */,
+				C3335A3E2063923F0042DBBA /* DWPlateKeyBoardShare.m */,
+			);
+			path = DWSingleTextInput;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35664712063403B00B4B0AB /* SingleTextInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C356649E2063403C00B4B0AB /* Build configuration list for PBXNativeTarget "SingleTextInput" */;
+			buildPhases = (
+				C356646E2063403B00B4B0AB /* Sources */,
+				C356646F2063403B00B4B0AB /* Frameworks */,
+				C35664702063403B00B4B0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleTextInput;
+			productName = SingleTextInput;
+			productReference = C35664722063403B00B4B0AB /* SingleTextInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C35664892063403B00B4B0AB /* SingleTextInputTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35664A12063403C00B4B0AB /* Build configuration list for PBXNativeTarget "SingleTextInputTests" */;
+			buildPhases = (
+				C35664862063403B00B4B0AB /* Sources */,
+				C35664872063403B00B4B0AB /* Frameworks */,
+				C35664882063403B00B4B0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C356648C2063403B00B4B0AB /* PBXTargetDependency */,
+			);
+			name = SingleTextInputTests;
+			productName = SingleTextInputTests;
+			productReference = C356648A2063403B00B4B0AB /* SingleTextInputTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C35664942063403B00B4B0AB /* SingleTextInputUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35664A42063403C00B4B0AB /* Build configuration list for PBXNativeTarget "SingleTextInputUITests" */;
+			buildPhases = (
+				C35664912063403B00B4B0AB /* Sources */,
+				C35664922063403B00B4B0AB /* Frameworks */,
+				C35664932063403B00B4B0AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35664972063403B00B4B0AB /* PBXTargetDependency */,
+			);
+			name = SingleTextInputUITests;
+			productName = SingleTextInputUITests;
+			productReference = C35664952063403B00B4B0AB /* SingleTextInputUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C356646A2063403B00B4B0AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mude;
+				TargetAttributes = {
+					C35664712063403B00B4B0AB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C35664892063403B00B4B0AB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C35664712063403B00B4B0AB;
+					};
+					C35664942063403B00B4B0AB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C35664712063403B00B4B0AB;
+					};
+				};
+			};
+			buildConfigurationList = C356646D2063403B00B4B0AB /* Build configuration list for PBXProject "SingleTextInput" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C35664692063403B00B4B0AB;
+			productRefGroup = C35664732063403B00B4B0AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35664712063403B00B4B0AB /* SingleTextInput */,
+				C35664892063403B00B4B0AB /* SingleTextInputTests */,
+				C35664942063403B00B4B0AB /* SingleTextInputUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C35664702063403B00B4B0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C356647F2063403B00B4B0AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35664882063403B00B4B0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35664932063403B00B4B0AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C356646E2063403B00B4B0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35664AA206340F800B4B0AB /* DWSingleTextInput.m in Sources */,
+				C356647A2063403B00B4B0AB /* ViewController.m in Sources */,
+				C35664AD20634ECD00B4B0AB /* DWPlateKeyBoardView.m in Sources */,
+				C35664852063403B00B4B0AB /* main.m in Sources */,
+				C3335A3F2063923F0042DBBA /* DWPlateKeyBoardShare.m in Sources */,
+				C35664772063403B00B4B0AB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35664862063403B00B4B0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C356648F2063403B00B4B0AB /* SingleTextInputTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35664912063403B00B4B0AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C356649A2063403C00B4B0AB /* SingleTextInputUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C356648C2063403B00B4B0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35664712063403B00B4B0AB /* SingleTextInput */;
+			targetProxy = C356648B2063403B00B4B0AB /* PBXContainerItemProxy */;
+		};
+		C35664972063403B00B4B0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35664712063403B00B4B0AB /* SingleTextInput */;
+			targetProxy = C35664962063403B00B4B0AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C356649C2063403C00B4B0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C356649D2063403C00B4B0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C356649F2063403C00B4B0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED7MB6N8JF;
+				INFOPLIST_FILE = SingleTextInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.mude.SingleTextInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C35664A02063403C00B4B0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED7MB6N8JF;
+				INFOPLIST_FILE = SingleTextInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.mude.SingleTextInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C35664A22063403C00B4B0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED7MB6N8JF;
+				INFOPLIST_FILE = SingleTextInputTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.mude.SingleTextInputTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleTextInput.app/SingleTextInput";
+			};
+			name = Debug;
+		};
+		C35664A32063403C00B4B0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED7MB6N8JF;
+				INFOPLIST_FILE = SingleTextInputTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.mude.SingleTextInputTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingleTextInput.app/SingleTextInput";
+			};
+			name = Release;
+		};
+		C35664A52063403C00B4B0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED7MB6N8JF;
+				INFOPLIST_FILE = SingleTextInputUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.mude.SingleTextInputUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingleTextInput;
+			};
+			name = Debug;
+		};
+		C35664A62063403C00B4B0AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ED7MB6N8JF;
+				INFOPLIST_FILE = SingleTextInputUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.mude.SingleTextInputUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingleTextInput;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C356646D2063403B00B4B0AB /* Build configuration list for PBXProject "SingleTextInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C356649C2063403C00B4B0AB /* Debug */,
+				C356649D2063403C00B4B0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C356649E2063403C00B4B0AB /* Build configuration list for PBXNativeTarget "SingleTextInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C356649F2063403C00B4B0AB /* Debug */,
+				C35664A02063403C00B4B0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35664A12063403C00B4B0AB /* Build configuration list for PBXNativeTarget "SingleTextInputTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35664A22063403C00B4B0AB /* Debug */,
+				C35664A32063403C00B4B0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35664A42063403C00B4B0AB /* Build configuration list for PBXNativeTarget "SingleTextInputUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35664A52063403C00B4B0AB /* Debug */,
+				C35664A62063403C00B4B0AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C356646A2063403B00B4B0AB /* Project object */;
+}
