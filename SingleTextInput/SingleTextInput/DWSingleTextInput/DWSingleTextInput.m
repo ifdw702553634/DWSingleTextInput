@@ -87,7 +87,7 @@
     //输入一个字符拼接到后面
     _plateStr = [_plateStr stringByAppendingString:string];
     //判断车牌号码大于8位的时候，怎么输入就输不进去了
-    if (_plateStr.length > 8) {
+    if (_plateStr.length > _labelNumber) {
         NSString *str = [_plateStr substringToIndex:_plateStr.length - 1];
         NSLog(@" >>> str --- %@", str);
         _plateStr = str;

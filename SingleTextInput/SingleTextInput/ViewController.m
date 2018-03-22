@@ -28,7 +28,7 @@
 }
 
 - (void)getText:(NSString *)text{
-    NSLog(@"%@", [NSString stringWithFormat:@">>>>>>   输出车牌号为%@",text]);
+    NSLog(@"%@", [NSString stringWithFormat:@">>>>>>   输出车牌号为：%@",text]);
 }
 
 - (void)didReceiveMemoryWarning {
